@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48464BD1E6A8F6F00A648A0 /* UIImage+QHReDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = A48464BB1E6A8F6F00A648A0 /* UIImage+QHReDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48464BE1E6A8F6F00A648A0 /* UIImage+QHReDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = A48464BC1E6A8F6F00A648A0 /* UIImage+QHReDraw.m */; };
+		A4A3EB071E690FE400D3F6F4 /* QHUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3EAFD1E690FE400D3F6F4 /* QHUtil.framework */; };
+		A4A3EB0C1E690FE400D3F6F4 /* QHUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB0B1E690FE400D3F6F4 /* QHUtilTests.m */; };
+		A4A3EB0E1E690FE400D3F6F4 /* QHUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB001E690FE400D3F6F4 /* QHUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB1A1E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB181E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB1B1E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB191E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.m */; };
+		A4A3EB1E1E691BA400D3F6F4 /* NSString+QHValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB1C1E691BA400D3F6F4 /* NSString+QHValidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB1F1E691BA400D3F6F4 /* NSString+QHValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB1D1E691BA400D3F6F4 /* NSString+QHValidate.m */; };
+		A4A3EB221E69210800D3F6F4 /* UIColor+QHConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB201E69210800D3F6F4 /* UIColor+QHConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB231E69210800D3F6F4 /* UIColor+QHConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB211E69210800D3F6F4 /* UIColor+QHConvert.m */; };
+		A4A3EB261E694CB200D3F6F4 /* UIView+QHFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB241E694CB200D3F6F4 /* UIView+QHFrameLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB271E694CB200D3F6F4 /* UIView+QHFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB251E694CB200D3F6F4 /* UIView+QHFrameLayout.m */; };
+		A4A3EB2D1E695A1E00D3F6F4 /* QHFileManage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB2B1E695A1E00D3F6F4 /* QHFileManage.h */; };
+		A4A3EB2E1E695A1E00D3F6F4 /* QHFileManage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB2C1E695A1E00D3F6F4 /* QHFileManage.m */; };
+		A4A3EB351E6960E400D3F6F4 /* QHBackgroundTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3EB331E6960E400D3F6F4 /* QHBackgroundTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A3EB361E6960E400D3F6F4 /* QHBackgroundTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3EB341E6960E400D3F6F4 /* QHBackgroundTimerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A3EB081E690FE400D3F6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A3EAF41E690FE400D3F6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A3EAFC1E690FE400D3F6F4;
+			remoteInfo = QHUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A48464BB1E6A8F6F00A648A0 /* UIImage+QHReDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QHReDraw.h"; sourceTree = "<group>"; };
+		A48464BC1E6A8F6F00A648A0 /* UIImage+QHReDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QHReDraw.m"; sourceTree = "<group>"; };
+		A4A3EAFD1E690FE400D3F6F4 /* QHUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QHUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3EB001E690FE400D3F6F4 /* QHUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHUtil.h; sourceTree = "<group>"; };
+		A4A3EB011E690FE400D3F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A3EB061E690FE400D3F6F4 /* QHUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3EB0B1E690FE400D3F6F4 /* QHUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHUtilTests.m; sourceTree = "<group>"; };
+		A4A3EB0D1E690FE400D3F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A3EB181E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QHSafeConvert.h"; sourceTree = "<group>"; };
+		A4A3EB191E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QHSafeConvert.m"; sourceTree = "<group>"; };
+		A4A3EB1C1E691BA400D3F6F4 /* NSString+QHValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QHValidate.h"; sourceTree = "<group>"; };
+		A4A3EB1D1E691BA400D3F6F4 /* NSString+QHValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QHValidate.m"; sourceTree = "<group>"; };
+		A4A3EB201E69210800D3F6F4 /* UIColor+QHConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QHConvert.h"; sourceTree = "<group>"; };
+		A4A3EB211E69210800D3F6F4 /* UIColor+QHConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QHConvert.m"; sourceTree = "<group>"; };
+		A4A3EB241E694CB200D3F6F4 /* UIView+QHFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QHFrameLayout.h"; sourceTree = "<group>"; };
+		A4A3EB251E694CB200D3F6F4 /* UIView+QHFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QHFrameLayout.m"; sourceTree = "<group>"; };
+		A4A3EB2B1E695A1E00D3F6F4 /* QHFileManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHFileManage.h; sourceTree = "<group>"; };
+		A4A3EB2C1E695A1E00D3F6F4 /* QHFileManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHFileManage.m; sourceTree = "<group>"; };
+		A4A3EB331E6960E400D3F6F4 /* QHBackgroundTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBackgroundTimerManager.h; sourceTree = "<group>"; };
+		A4A3EB341E6960E400D3F6F4 /* QHBackgroundTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBackgroundTimerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A3EAF91E690FE400D3F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3EB031E690FE400D3F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3EB071E690FE400D3F6F4 /* QHUtil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A3EAF31E690FE400D3F6F4 = {
+			isa = PBXGroup;
+			children = (
+				A4A3EAFF1E690FE400D3F6F4 /* QHUtil */,
+				A4A3EB0A1E690FE400D3F6F4 /* QHUtilTests */,
+				A4A3EAFE1E690FE400D3F6F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A3EAFE1E690FE400D3F6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EAFD1E690FE400D3F6F4 /* QHUtil.framework */,
+				A4A3EB061E690FE400D3F6F4 /* QHUtilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A3EAFF1E690FE400D3F6F4 /* QHUtil */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EB2A1E6958CA00D3F6F4 /* QHManage */,
+				A4A3EB171E6912FE00D3F6F4 /* QHCategory */,
+				A4A3EB001E690FE400D3F6F4 /* QHUtil.h */,
+				A4A3EB011E690FE400D3F6F4 /* Info.plist */,
+			);
+			path = QHUtil;
+			sourceTree = "<group>";
+		};
+		A4A3EB0A1E690FE400D3F6F4 /* QHUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EB0B1E690FE400D3F6F4 /* QHUtilTests.m */,
+				A4A3EB0D1E690FE400D3F6F4 /* Info.plist */,
+			);
+			path = QHUtilTests;
+			sourceTree = "<group>";
+		};
+		A4A3EB171E6912FE00D3F6F4 /* QHCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EB181E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.h */,
+				A4A3EB191E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.m */,
+				A4A3EB1C1E691BA400D3F6F4 /* NSString+QHValidate.h */,
+				A4A3EB1D1E691BA400D3F6F4 /* NSString+QHValidate.m */,
+				A4A3EB201E69210800D3F6F4 /* UIColor+QHConvert.h */,
+				A4A3EB211E69210800D3F6F4 /* UIColor+QHConvert.m */,
+				A4A3EB241E694CB200D3F6F4 /* UIView+QHFrameLayout.h */,
+				A4A3EB251E694CB200D3F6F4 /* UIView+QHFrameLayout.m */,
+				A48464BB1E6A8F6F00A648A0 /* UIImage+QHReDraw.h */,
+				A48464BC1E6A8F6F00A648A0 /* UIImage+QHReDraw.m */,
+			);
+			path = QHCategory;
+			sourceTree = "<group>";
+		};
+		A4A3EB2A1E6958CA00D3F6F4 /* QHManage */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3EB2B1E695A1E00D3F6F4 /* QHFileManage.h */,
+				A4A3EB2C1E695A1E00D3F6F4 /* QHFileManage.m */,
+				A4A3EB331E6960E400D3F6F4 /* QHBackgroundTimerManager.h */,
+				A4A3EB341E6960E400D3F6F4 /* QHBackgroundTimerManager.m */,
+			);
+			path = QHManage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4A3EAFA1E690FE400D3F6F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3EB261E694CB200D3F6F4 /* UIView+QHFrameLayout.h in Headers */,
+				A4A3EB0E1E690FE400D3F6F4 /* QHUtil.h in Headers */,
+				A48464BD1E6A8F6F00A648A0 /* UIImage+QHReDraw.h in Headers */,
+				A4A3EB1A1E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.h in Headers */,
+				A4A3EB1E1E691BA400D3F6F4 /* NSString+QHValidate.h in Headers */,
+				A4A3EB351E6960E400D3F6F4 /* QHBackgroundTimerManager.h in Headers */,
+				A4A3EB2D1E695A1E00D3F6F4 /* QHFileManage.h in Headers */,
+				A4A3EB221E69210800D3F6F4 /* UIColor+QHConvert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4A3EAFC1E690FE400D3F6F4 /* QHUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3EB111E690FE400D3F6F4 /* Build configuration list for PBXNativeTarget "QHUtil" */;
+			buildPhases = (
+				A4A3EAF81E690FE400D3F6F4 /* Sources */,
+				A4A3EAF91E690FE400D3F6F4 /* Frameworks */,
+				A4A3EAFA1E690FE400D3F6F4 /* Headers */,
+				A4A3EAFB1E690FE400D3F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHUtil;
+			productName = QHUtil;
+			productReference = A4A3EAFD1E690FE400D3F6F4 /* QHUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4A3EB051E690FE400D3F6F4 /* QHUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3EB141E690FE400D3F6F4 /* Build configuration list for PBXNativeTarget "QHUtilTests" */;
+			buildPhases = (
+				A4A3EB021E690FE400D3F6F4 /* Sources */,
+				A4A3EB031E690FE400D3F6F4 /* Frameworks */,
+				A4A3EB041E690FE400D3F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A3EB091E690FE400D3F6F4 /* PBXTargetDependency */,
+			);
+			name = QHUtilTests;
+			productName = QHUtilTests;
+			productReference = A4A3EB061E690FE400D3F6F4 /* QHUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A3EAF41E690FE400D3F6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = karl.luo;
+				TargetAttributes = {
+					A4A3EAFC1E690FE400D3F6F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A4A3EB051E690FE400D3F6F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4A3EAF71E690FE400D3F6F4 /* Build configuration list for PBXProject "QHUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4A3EAF31E690FE400D3F6F4;
+			productRefGroup = A4A3EAFE1E690FE400D3F6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A3EAFC1E690FE400D3F6F4 /* QHUtil */,
+				A4A3EB051E690FE400D3F6F4 /* QHUtilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A3EAFB1E690FE400D3F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3EB041E690FE400D3F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A3EAF81E690FE400D3F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3EB231E69210800D3F6F4 /* UIColor+QHConvert.m in Sources */,
+				A4A3EB1F1E691BA400D3F6F4 /* NSString+QHValidate.m in Sources */,
+				A4A3EB361E6960E400D3F6F4 /* QHBackgroundTimerManager.m in Sources */,
+				A4A3EB2E1E695A1E00D3F6F4 /* QHFileManage.m in Sources */,
+				A4A3EB1B1E69138C00D3F6F4 /* NSDictionary+QHSafeConvert.m in Sources */,
+				A48464BE1E6A8F6F00A648A0 /* UIImage+QHReDraw.m in Sources */,
+				A4A3EB271E694CB200D3F6F4 /* UIView+QHFrameLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3EB021E690FE400D3F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3EB0C1E690FE400D3F6F4 /* QHUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A3EB091E690FE400D3F6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A3EAFC1E690FE400D3F6F4 /* QHUtil */;
+			targetProxy = A4A3EB081E690FE400D3F6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4A3EB0F1E690FE400D3F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4A3EB101E690FE400D3F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A3EB121E690FE400D3F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QHUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4A3EB131E690FE400D3F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QHUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4A3EB151E690FE400D3F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4A3EB161E690FE400D3F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A3EAF71E690FE400D3F6F4 /* Build configuration list for PBXProject "QHUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3EB0F1E690FE400D3F6F4 /* Debug */,
+				A4A3EB101E690FE400D3F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3EB111E690FE400D3F6F4 /* Build configuration list for PBXNativeTarget "QHUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3EB121E690FE400D3F6F4 /* Debug */,
+				A4A3EB131E690FE400D3F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3EB141E690FE400D3F6F4 /* Build configuration list for PBXNativeTarget "QHUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3EB151E690FE400D3F6F4 /* Debug */,
+				A4A3EB161E690FE400D3F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A3EAF41E690FE400D3F6F4 /* Project object */;
+}

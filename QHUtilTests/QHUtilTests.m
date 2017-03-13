@@ -1,0 +1,44 @@
+//
+//  QHUtilTests.m
+//  QHUtilTests
+//
+//  Created by QianHan on 2017/3/3.
+//  Copyright © 2017年 karl.luo. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+#import "QHUtil.h"
+
+@interface QHUtilTests : XCTestCase
+
+@end
+
+@implementation QHUtilTests
+
+- (void)setUp {
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+    NSString *phoneString   = @"13922876492";
+    [phoneString qh_validateMobile];
+}
+
+- (void)tearDown {
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+- (void)testPerformanceExample {
+    // This is an example of a performance test case.
+    [self measureBlock:^{
+        // Put the code you want to measure the time of here.
+        NSString *phoneString   = @"13922876492";
+        [phoneString qh_validateMobile];
+    }];
+}
+
+@end
